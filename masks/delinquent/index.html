@@ -109,7 +109,7 @@
 		<h2>Labels</h2>
 		<p>(at character creation, add +1 wherever you choose)</p>
 		<div class="labels" style="max-width: 10em;">
-			<p>Danger <input type="number" name="charDanger" min="-2" max="3" value="1"	" class="alignRight" /></p>
+			<p>Danger <input type="number" name="charDanger" min="-2" max="3" value="1" class="alignRight" /></p>
 			<p>Freak <input type="number" name="charFreak" min="-2" max="3" value="0" class="alignRight" /></p>
 			<p>Savior <input type="number" name="charSavior" min="-2" max="3" value="1" class="alignRight" /></p>
 			<p>Superior <input type="number" name="charSuperior" min="-2" max="3" value="0" class="alignRight" /></p>
@@ -163,15 +163,20 @@
 			<span>Influence notes</span>
 		</label>
 		<div class="moves">
-			<h2>Delinquent Moves</h2>
-			<p>(Choose three)</p>
+			<h2>Scion Moves</h2>
+			<p>(Choose two)</p>
 			<div class="charMove">
-				<input type="checkbox" name="moveOne" id="moveOne" value="Mary Contrary"><label for="moveOne"> Mary Contrary: </label> 
-				When someone tries to <b>pierce your mask</b>, <b>comfort or support you</b>, or <b>provoke you</b>, you can interfere. Roll + Superior. On a hit, they take a -2 on their roll. On a 10+, you also take Influence over them or clear a condition. On a miss, they get a 10+ no matter what they rolled and you mark a condition of their choice.
+				<input type="checkbox" name="moveOne" id="moveOne" value="I'll Show Them!"><label for="moveOne"> I'll Show Them!: </label> 
+				I’ll show them: When you <b>defend</b> someone who doesn’t believe in you, you can always take Influence over them, even on a miss.When someone tries to <b>pierce your mask</b>, <b>comfort or support you</b>, 
 			</div>
 			<div class="charMove">
-				<input type="checkbox" name="moveTwo" id="moveTwo" value="I don't care what you think!"><label for="moveTwo"> I don't care what you think!:</label> 
-				Whenever you <b>reject others’ Influence</b>, add +2 to your roll.
+				<input type="checkbox" name="moveTwo" id="moveTwo" value="Changed Sides"><label for="moveTwo"> Changed Sides:</label> 
+				Changed sides: When you mislead or trick an enemy by pretending to be on their side, roll + Danger. On a hit, they buy your charade for now. On a 7-9, choose 1. On a 10+, choose 2.
+				<ul><li>You avoid having to provide concrete evidence </li>
+					<li>You create an opportunity</li>
+					<li>You expose a weakness or flaw </li>
+				</ul>
+				On a miss, someone else watching comes to the worst possible conclusion.
 			</div>
 			<div class="charMove">
 				<input type="checkbox" name="moveThree" id="moveThree" value="Team? What team?"><label for="moveThree"> Team? What team?:</label> 
