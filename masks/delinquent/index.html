@@ -183,38 +183,28 @@
 				When you accuse an enemy of being irredeemable, you can mark two conditions to take Influence over you away from them. When you <b>directly engage</b> someone who has no Influence over you, you can always choose 1 additional option, even on a miss.
 			</div>
 			<div class="charMove">
-				<input type="checkbox" name="moveFour" id="moveFour" value="Criminal mind"><label for="moveFour"> Criminal mind:</label> 
-				When you <b>assess the situation</b>, you can always ask one of the following questions, even on a miss:
-				<ul><li>what here is useful or valuable to me?</li>
-					<li>how could I best infuriate or provoke ____________?</li>
-					<li>what’s the best way in/way past?</li>
-				</ul>
+				<input type="checkbox" name="moveFour" id="moveFour" value="Moldable"><label for="moveFour"> Moldable:</label> 
+				When you <b>pierce the mask</b> of someone whose respect you crave, you can always ask “How could I gain Influence over you?”, even on a miss. Take +1 ongoing to acting on the answer.
 			</div>
 			<div class="charMove">
-				<input type="checkbox" name="moveFive" id="moveFive" value="Troublemaker"><label for="moveFive">Troublemaker:</label> 
-				When you help a teammate through destructive, criminal, or rule-breaking actions, you can give them a +2 instead of a +1 when you spend a Team from the pool.
+				<input type="checkbox" name="moveFive" id="moveFive" value="All the best stuff"><label for="moveFive">All the best stuff:</label> 
+				: You’ve compiled access to caches of equipment and weaponry other supers have hidden in the city. When you access a cache, say whose cache it is. If it’s a hero’s, roll + Savior. If it’s a villain’s, roll + Danger. On a hit, you find a tool or intel useful to your situation; the GM will detail. On a 7-9, you leave evidence that you’ve been here. On a miss, you tripped an alarm and they’re coming; prepare to explain yourself
 			</div>
 			<div class="charMove">
-				<input type="checkbox" name="moveSix" id="moveSix" value="Are you watching closely?"><label for="moveSix"> Are you watching closely?:</label> 
-				When you mislead, distract, or trick someone, roll +Superior. On a hit, they are fooled, at least for a moment. On a 10+, choose three. On a 7-9, choose two.
-				<ul><li>you get an opportunity</li>
-					<li>you expose a weakness or flaw</li>
-					<li>you confuse them for some time</li>
-					<li>you avoid further entanglement</li>
-				</ul>
-				On a miss, you’re hopelessly embroiled in it and under pressure; mark a condition.
+				<input type="checkbox" name="moveSix" id="moveSix" value="White Lies"><label for="moveSix"> White Lies:</label> 
+				When you <b> comfort or support</b> someone by telling them how they are your role model as a hero, roll + Savior instead of + Mundane. On any hit, if they open up to you, take Influence over them.
 			</div>
 		</div>
 		<div>
 		<h2>Moment of Truth</h2>
-		<p>This is when you show them what you really are. Whether you’re the hero underneath the rebel facade...or the one who can make the hard choices heroes can’t make. You do whatever it takes to show that truth, whether it’s saving the day from a terrible villain or stopping a bad guy once and for all. Of course, once you’ve shown what you really are, there’s no going back to playing the clown...</p>
+		<p>People have always tried to define you by your lineage. As if from the moment you were born, you were meant to be some villain to be defeated. But...they’re right, aren’t they? That darkness is in you. So right here, right now, you’re not fighting it—you’re embracing it. Both hero and villain, and greater besides. You’re overcoming impossible odds in ways no hero would approve of, and no villain could comprehend. Of course, after seeing what you can really do when you embrace the whole of yourself, the rest of the world isn’t going to forget who you really are....</p>
 		<label for="truthUnlockOne"> Unlock 1:</label> <input type="checkbox" name="truthUnlockOne" id="truthUnlockOne"><label for="truthUsedOne"> Use 1:</label> <input type="checkbox" name="truthUsedOne" id="truthUsedOne">
 		<label for="truthUnlockTwo"> Unlock 2:</label> <input type="checkbox" name="truthUnlockTwo" id="truthUnlockTwo"><label for="truthUsedTwo"> Use 2:</label> <input type="checkbox" name="truthUsedTwo" id="truthUsedTwo">
 	</div>
 	<div>
 		<h2>Team Moves</h2>
-		<p>When you share a triumphant celebration with someone, ask them if they think you’re cool. If they say yes, give them Influence and take Influence over them. If they say no, mark a condition or spurn them immediately. If they’re a teammate, then either way, add a Team to the pool.</p>
-		<p>When you share a vulnerability or weakness with someone, give them Influence over you, and ask them who they’d like you to be. Mark potential if you show them that person. If they’re a teammate, add a Team to the pool no matter what.</p>
+		<p>When you share a triumphant celebration with someone, ask them if you have earned their respect. If you have, take Influence over them and mark potential. If you have not, give them Influence over you and mark potential.</p>
+		<p>When you share a vulnerability or weakness with someone, ask them if they would defend you against those who mistrust you. If they say yes, clear a condition and shift Savior up and any other Label down. If they say no, mark a condition and shift Danger up and any other Label down. </p>
 	</div>
 	<div><h2>Potential</h2>
 		<div><input type="checkbox" name="potentialOne" id="potentialOne"><input type="checkbox" name="potentialTwo" id="potentialTwo"><input type="checkbox" name="potentialThree" id="potentialThree"><input type="checkbox" name="potentialFour" id="potentialFour"><input type="checkbox" name="potentialFive" id="potentialFive"> </div>
@@ -226,9 +216,9 @@
 		<input type="checkbox" name="advanceThree" id="advanceThree"> Take a move from another playbook<br />
 		<input type="checkbox" name="advanceFour" id="advanceFour"> Take a move from another playbook<br />
 		<input type="checkbox" name="advanceSix" id="advanceSix"> Someone permanently loses Influence over you; add +1 to a Label<br />
-		<input type="checkbox" name="advanceSeven" id="advanceSeven"> Rearrange your Labels as you choose, and add +1 to a Label<br />
+		<input type="checkbox" name="advanceSeven" id="advances even"> Rearrange your Labels as you choose, and add +1 to a Label<br />
 		<input type="checkbox" name="advanceEight" id="advanceEight"> Unlock your Moment of Truth<br />
-		<input type="checkbox" name="advanceFive" id="advanceFive"> Add +1 to any two Labels<br />
+		<input type="checkbox" name="advanceFive" id="advanceFive"> Take <b>The Mask</b> and a secret identity from the Janus playbooks<br />
 		<p>When you’ve taken five advances from the top list, you can take advances from the list below.</p>
 		<input type="checkbox" name="advanceNine" id="advanceNine"> Unlock your Moment of Truth after it’s been used once<br />
 		<input type="checkbox" name="advanceTen" id="advanceTen"> Change playbooks<br />
